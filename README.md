@@ -1,7 +1,6 @@
-# kfm
-Kings Flour Mill Website
+# Kings Flour Mill Website
 
-
+Official webpage of King's Flour Mill 
 
 # Getting Started
 
