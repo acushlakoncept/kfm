@@ -36,5 +36,5 @@ body {
 
 .header {
   height: 80vh;
-  background-color: var(--pink);
+  background: linear-gradient(105deg, var(--blue-light), var(--pink));
 }
