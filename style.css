@@ -37,4 +37,44 @@ body {
 .header {
   height: 80vh;
   background: linear-gradient(105deg, var(--blue-light), var(--pink));
+  padding: 4rem;
+  position: relative;
+}
+
+.logo {
+  width: 20rem;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__desktop {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav__list:not(:last-child) {
+  margin-right: 2rem;
+}
+
+.nav__links {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  color: var(--black);
+}
+
+.header__img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -30%);
+  transition: all .4s;
+}
+
+.header__img:hover {
+  transform: translate(-50%, -32%);
 }
