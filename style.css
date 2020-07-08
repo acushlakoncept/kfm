@@ -1,3 +1,10 @@
+:root {
+  --red: #991522;
+  --blue: #072b78;
+  --blue-light: #a5c2ee;
+  --pink: #f9a5a8;
+}
+
 * {
   margin: 0;
   padding: 0;
